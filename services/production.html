@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Production Services - StudioPulse</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="logo">
+            <h1>Studio<span>Pulse</span></h1>
+        </div>
+        <div class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="../index.html#services">Services</a>
+            <a href="../index.html#about">About</a>
+            <a href="../index.html#portfolio">Portfolio</a>
+            <a href="../index.html#contact">Contact</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Service Hero Section -->
+    <section class="service-hero">
+        <div class="hero-content">
+            <i class="fas fa-guitar service-icon"></i>
+            <h1>Music Production Services</h1>
+            <p>Transform your musical ideas into professional productions</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="service-features">
+        <div class="features-grid">
+            <div class="feature-card glass-card">
+                <i class="fas fa-guitar"></i>
+                <h3>Production Tools</h3>
+                <ul>
+                    <li>Virtual Instruments</li>
+                    <li>MIDI Controllers</li>
+                    <li>Sample Libraries</li>
+                    <li>Hardware Synths</li>
+                </ul>
+            </div>
+            <div class="feature-card glass-card">
+                <i class="fas fa-drum"></i>
+                <h3>Live Instruments</h3>
+                <ul>
+                    <li>Grand Piano</li>
+                    <li>Drum Kit</li>
+                    <li>Guitar Collection</li>
+                    <li>Bass Amplifiers</li>
+                </ul>
+            </div>
+            <div class="feature-card glass-card">
+                <i class="fas fa-laptop"></i>
+                <h3>Production Software</h3>
+                <ul>
+                    <li>Ableton Live</li>
+                    <li>Logic Pro X</li>
+                    <li>Native Instruments</li>
+                    <li>Waves Plugins</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Timeline -->
+    <section class="service-process">
+        <h2>Production Process</h2>
+        <div class="process-timeline">
+            <div class="process-step glass-card">
+                <div class="step-number">1</div>
+                <h3>Concept</h3>
+                <p>Developing the musical idea and direction</p>
+            </div>
+            <div class="process-step glass-card">
+                <div class="step-number">2</div>
+                <h3>Arrangement</h3>
+                <p>Creating the song structure and instrumentation</p>
+            </div>
+            <div class="process-step glass-card">
+                <div class="step-number">3</div>
+                <h3>Production</h3>
+                <p>Recording and producing all elements</p>
+            </div>
+            <div class="process-step glass-card">
+                <div class="step-number">4</div>
+                <h3>Finishing</h3>
+                <p>Final touches and preparation for mixing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <h2>Production Packages</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card glass-card">
+                <h3>Basic Production</h3>
+                <div class="price">$599<span>/song</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Basic Arrangement</li>
+                    <li><i class="fas fa-check"></i> Virtual Instruments</li>
+                    <li><i class="fas fa-check"></i> 2 Revisions</li>
+                    <li><i class="fas fa-check"></i> Basic Mixing</li>
+                </ul>
+                <button class="submit-btn">Book Now</button>
+            </div>
+            <div class="pricing-card glass-card featured">
+                <div class="featured-badge">Most Popular</div>
+                <h3>Professional Production</h3>
+                <div class="price">$999<span>/song</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Full Arrangement</li>
+                    <li><i class="fas fa-check"></i> Live Instruments</li>
+                    <li><i class="fas fa-check"></i> 4 Revisions</li>
+                    <li><i class="fas fa-check"></i> Professional Mixing</li>
+                    <li><i class="fas fa-check"></i> Basic Mastering</li>
+                </ul>
+                <button class="submit-btn">Book Now</button>
+            </div>
+            <div class="pricing-card glass-card">
+                <h3>Premium Production</h3>
+                <div class="price">$1,499<span>/song</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Custom Arrangement</li>
+                    <li><i class="fas fa-check"></i> All Instruments</li>
+                    <li><i class="fas fa-check"></i> Unlimited Revisions</li>
+                    <li><i class="fas fa-check"></i> Premium Mixing</li>
+                    <li><i class="fas fa-check"></i> Professional Mastering</li>
+                    <li><i class="fas fa-check"></i> Stems Delivery</li>
+                </ul>
+                <button class="submit-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section class="booking-section">
+        <h2>Book Your Production Session</h2>
+        <form class="booking-form glass-card">
+            <div class="form-group">
+                <input type="text" id="name" required placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" required placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <select id="package" required>
+                    <option value="">Select Package</option>
+                    <option value="basic">Basic Production</option>
+                    <option value="professional">Professional Production</option>
+                    <option value="premium">Premium Production</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <select id="genre" required>
+                    <option value="">Select Genre</option>
+                    <option value="pop">Pop</option>
+                    <option value="rock">Rock</option>
+                    <option value="hip-hop">Hip-Hop</option>
+                    <option value="electronic">Electronic</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <textarea id="message" required placeholder="Project Description"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Book Production</button>
+        </form>
+    </section>
+
+    <footer class="glass-footer">
+        <!-- Footer content from main page -->
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

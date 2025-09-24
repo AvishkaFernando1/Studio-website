@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recording Services - StudioPulse</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="glass-nav">
+        <div class="logo">
+            <h1>Studio<span>Pulse</span></h1>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="recording.html" class="active">Recording</a>
+            <a href="mixing.html">Mixing</a>
+            <a href="mastering.html">Mastering</a>
+            <a href="production.html">Production</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section class="service-hero recording-hero">
+        <div class="hero-content glass-card">
+            <div class="service-icon">
+                <i class="fas fa-microphone"></i>
+            </div>
+            <h1>Professional Recording</h1>
+            <p>State-of-the-art recording facilities for your musical masterpiece</p>
+        </div>
+    </section>
+
+    <section class="service-features">
+        <div class="features-grid">
+            <div class="feature-card glass-card">
+                <i class="fas fa-music"></i>
+                <h3>Studio Equipment</h3>
+                <ul>
+                    <li>Neumann U87 Microphones</li>
+                    <li>SSL Console</li>
+                    <li>Pro Tools HD</li>
+                    <li>Acoustic Treatment</li>
+                </ul>
+            </div>
+            <div class="feature-card glass-card">
+                <i class="fas fa-clock"></i>
+                <h3>Studio Time</h3>
+                <ul>
+                    <li>Flexible Hours</li>
+                    <li>24/7 Availability</li>
+                    <li>Professional Engineers</li>
+                    <li>Comfortable Environment</li>
+                </ul>
+            </div>
+            <div class="feature-card glass-card">
+                <i class="fas fa-guitar"></i>
+                <h3>Instruments</h3>
+                <ul>
+                    <li>Grand Piano</li>
+                    <li>Vintage Guitars</li>
+                    <li>Premium Drums</li>
+                    <li>Various Amplifiers</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="service-process">
+        <h2>Recording Process</h2>
+        <div class="process-timeline">
+            <div class="process-step glass-card">
+                <div class="step-number">1</div>
+                <h3>Initial Setup</h3>
+                <p>Equipment selection and room preparation based on your needs</p>
+            </div>
+            <div class="process-step glass-card">
+                <div class="step-number">2</div>
+                <h3>Sound Check</h3>
+                <p>Microphone placement and levels optimization</p>
+            </div>
+            <div class="process-step glass-card">
+                <div class="step-number">3</div>
+                <h3>Recording</h3>
+                <p>High-quality capture of your performance</p>
+            </div>
+            <div class="process-step glass-card">
+                <div class="step-number">4</div>
+                <h3>Review</h3>
+                <p>Playback and assessment of recorded material</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section">
+        <h2>Recording Packages</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card glass-card">
+                <h3>Basic</h3>
+                <div class="price">$75<span>/hour</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Studio Time</li>
+                    <li><i class="fas fa-check"></i> Basic Equipment</li>
+                    <li><i class="fas fa-check"></i> Engineer Assistant</li>
+                </ul>
+                <button class="cta-btn">Book Now</button>
+            </div>
+            <div class="pricing-card glass-card featured">
+                <div class="featured-badge">Popular</div>
+                <h3>Professional</h3>
+                <div class="price">$150<span>/hour</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> Premium Equipment</li>
+                    <li><i class="fas fa-check"></i> Senior Engineer</li>
+                    <li><i class="fas fa-check"></i> Instrument Access</li>
+                    <li><i class="fas fa-check"></i> Basic Mixing</li>
+                </ul>
+                <button class="cta-btn">Book Now</button>
+            </div>
+            <div class="pricing-card glass-card">
+                <h3>Premium</h3>
+                <div class="price">$250<span>/hour</span></div>
+                <ul>
+                    <li><i class="fas fa-check"></i> All Equipment Access</li>
+                    <li><i class="fas fa-check"></i> Head Engineer</li>
+                    <li><i class="fas fa-check"></i> Full Instrument Access</li>
+                    <li><i class="fas fa-check"></i> Basic Mixing & Mastering</li>
+                </ul>
+                <button class="cta-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-section glass-card">
+        <h2>Book a Session</h2>
+        <form class="booking-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <select required>
+                    <option value="">Select Package</option>
+                    <option value="basic">Basic Package</option>
+                    <option value="professional">Professional Package</option>
+                    <option value="premium">Premium Package</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="date" required>
+            </div>
+            <div class="form-group">
+                <textarea placeholder="Additional Requirements" rows="4"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Schedule Recording</button>
+        </form>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
